@@ -4,14 +4,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 900;
   display: flex;
   align-items: center;
@@ -39,7 +38,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  flex-basis: 25%;
+  flex-basis: 300px;
 }
 
 .main {
@@ -50,8 +49,8 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  padding: 32px;
-  gap: 16px;
+  padding: 48px;
+  gap: 32px;
 }
 
 ul {
